@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #dddddd;
+}
+
+.navbar {
+  padding: 0.5em;
+  margin: 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+  color: black;
+  margin: 0;
+}
+
+.item {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-size: large;
+  color: black;
+  margin: 0;
+}
+
+.welcome {
+  padding: 3em;
+}
+
+.welcome h1 {
+  font-size: 4em;
+  padding: 0;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.welcome span {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
